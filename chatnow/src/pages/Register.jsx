@@ -28,7 +28,7 @@ const Register = () => {
       uploadTask.on(
         'state_changed',
         (snapshot) => {
-          // Progress tracking if needed
+        
         },
         (error) => {
           console.error(error);
